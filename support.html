@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - NudgeCal</title>
+    <style>
+        :root {
+            --primary: #1a6b8a;
+            --bg: #fafcfd;
+            --text: #1a1a2e;
+            --muted: #5a6a7a;
+            --card-bg: #ffffff;
+            --border: #e0e8ef;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #6bc4e8;
+                --bg: #0f1923;
+                --text: #e8edf2;
+                --muted: #8a9aaa;
+                --card-bg: #1a2733;
+                --border: #2a3a4a;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, ul, ol {
+            margin-bottom: 16px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--primary);
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back:hover { text-decoration: underline; }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+        footer {
+            margin-top: 48px;
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; Back to NudgeCal</a>
+        <h1>Support</h1>
+
+        <h2>Report a Bug</h2>
+        <p>Found something not working right? Please <a href="https://github.com/BrianPBrammeier/NudgeCal/issues/new">open an issue</a> on GitHub with:</p>
+        <ol>
+            <li>Your device model and Android version</li>
+            <li>Steps to reproduce the problem</li>
+            <li>What you expected vs. what happened</li>
+        </ol>
+        <p>You can also copy your device info from the "Report a Bug" screen inside the app.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="card">
+            <strong>Notifications aren't showing up</strong>
+            <p>Make sure NudgeCal has both Calendar and Notification permissions granted. Check Settings > Apps > NudgeCal > Permissions on your device. Also ensure battery optimization is disabled for NudgeCal.</p>
+        </div>
+
+        <div class="card">
+            <strong>Events from some calendars don't appear</strong>
+            <p>Go to NudgeCal Settings > Handled Calendars and make sure all the calendars you want to monitor are selected.</p>
+        </div>
+
+        <div class="card">
+            <strong>Snooze isn't working</strong>
+            <p>NudgeCal uses exact alarms for reliable snooze. On Android 12+, make sure "Alarms & reminders" permission is enabled for NudgeCal in your device settings.</p>
+        </div>
+
+        <div class="card">
+            <strong>How do I delete my data?</strong>
+            <p>Go to NudgeCal Settings and use "Reset to defaults" to clear all preferences. You can also uninstall the app to remove all locally stored data. NudgeCal never sends data off your device.</p>
+        </div>
+
+        <h2>Contact</h2>
+        <p>For questions or feedback, please use <a href="https://github.com/BrianPBrammeier/NudgeCal/issues">GitHub Issues</a>.</p>
+
+        <footer>
+            &copy; 2025 NudgeCal. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>

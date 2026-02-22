@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NudgeCal - Calendar Alerts</title>
+    <style>
+        :root {
+            --primary: #1a6b8a;
+            --bg: #fafcfd;
+            --text: #1a1a2e;
+            --muted: #5a6a7a;
+            --card-bg: #ffffff;
+            --border: #e0e8ef;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #6bc4e8;
+                --bg: #0f1923;
+                --text: #e8edf2;
+                --muted: #8a9aaa;
+                --card-bg: #1a2733;
+                --border: #2a3a4a;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        .tagline {
+            color: var(--muted);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        nav {
+            margin-bottom: 40px;
+        }
+        nav a {
+            display: inline-block;
+            margin-right: 24px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover { text-decoration: underline; }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+        .card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 16px;
+        }
+        .card ul {
+            padding-left: 20px;
+        }
+        .card li {
+            margin-bottom: 8px;
+        }
+        footer {
+            margin-top: 48px;
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NudgeCal</h1>
+        <p class="tagline">Better calendar alerts for Android</p>
+
+        <nav>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="support.html">Support</a>
+        </nav>
+
+        <div class="card">
+            <h2>What is NudgeCal?</h2>
+            <p>NudgeCal replaces Android's default calendar notification system with better controls, snooze options, and a cleaner experience. Your events, your way.</p>
+        </div>
+
+        <div class="card">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Flexible snooze presets with custom durations</li>
+                <li>Quiet hours to silence alerts on your schedule</li>
+                <li>Per-event muting for noisy recurring meetings</li>
+                <li>Reminder re-firing so you never miss an event</li>
+                <li>Calendar color-coded notifications</li>
+                <li>Support for multiple calendars</li>
+                <li>No internet required &mdash; everything stays on your device</li>
+            </ul>
+        </div>
+
+        <footer>
+            &copy; 2025 NudgeCal. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>

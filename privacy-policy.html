@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - NudgeCal</title>
+    <style>
+        :root {
+            --primary: #1a6b8a;
+            --bg: #fafcfd;
+            --text: #1a1a2e;
+            --muted: #5a6a7a;
+            --card-bg: #ffffff;
+            --border: #e0e8ef;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #6bc4e8;
+                --bg: #0f1923;
+                --text: #e8edf2;
+                --muted: #8a9aaa;
+                --card-bg: #1a2733;
+                --border: #2a3a4a;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        .updated {
+            color: var(--muted);
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, ul {
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--primary);
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back:hover { text-decoration: underline; }
+        footer {
+            margin-top: 48px;
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; Back to NudgeCal</a>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: February 22, 2026</p>
+
+        <h2>Overview</h2>
+        <p>NudgeCal ("the App") is a calendar alert management application for Android. Your privacy is important to us. This policy explains what data the App accesses, how it is used, and your rights regarding that data.</p>
+
+        <h2>Data Collection</h2>
+        <p><strong>NudgeCal does not collect, transmit, or share any personal data.</strong></p>
+        <p>The App does not connect to the internet. There are no analytics, tracking, advertising, or telemetry of any kind. The App does not request the <code>INTERNET</code> permission.</p>
+
+        <h2>Data Access</h2>
+        <p>NudgeCal accesses the following data stored on your device:</p>
+        <ul>
+            <li><strong>Calendar data:</strong> The App reads your calendar events (event title, time, location, description, calendar name, and color) to display alert notifications and manage snooze/dismiss actions. With your permission, it may also write to your calendar to update event reminders.</li>
+            <li><strong>Notification permission:</strong> On Android 13 and above, the App requests permission to post notifications for calendar alerts.</li>
+        </ul>
+
+        <h2>Data Storage</h2>
+        <p>All data is stored locally on your device only:</p>
+        <ul>
+            <li><strong>Event alert records</strong> are stored in a local database to track active and dismissed alerts.</li>
+            <li><strong>User preferences</strong> (settings such as snooze presets, quiet hours, theme) are stored in Android DataStore on your device.</li>
+        </ul>
+        <p>No data leaves your device at any time. There are no servers, cloud storage, or external services involved.</p>
+
+        <h2>Data Sharing</h2>
+        <p>NudgeCal does not share data with any third parties. There are no advertising SDKs, analytics services, or social media integrations.</p>
+
+        <h2>Data Retention</h2>
+        <p>Dismissed event records are automatically deleted after a configurable period (default: 14 days). You can change this in Settings or set it to "Never" to keep records indefinitely. You can also manually clear all stored data from the Settings screen at any time.</p>
+
+        <h2>Your Rights</h2>
+        <p>You have full control over your data:</p>
+        <ul>
+            <li>You can export all stored event data from the App.</li>
+            <li>You can delete all stored data at any time from Settings.</li>
+            <li>You can revoke calendar or notification permissions at any time through your device's system settings.</li>
+            <li>Uninstalling the App removes all locally stored data.</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>NudgeCal does not knowingly collect data from children. The App does not collect data from anyone.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If this privacy policy changes, the updated version will be posted on this page with a revised date. Since the App does not collect data, significant changes are unlikely.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy, please open an issue on our <a href="https://github.com/BrianPBrammeier/NudgeCal/issues">GitHub repository</a>.</p>
+
+        <footer>
+            &copy; 2025 NudgeCal. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
