@@ -1,12 +1,14 @@
-# NudgeCal — Public Site
+# NudgeCal — Legal & Public Site
 
-Static GitHub Pages site for the NudgeCal Android app.
+Static GitHub Pages site for the NudgeCal Android app. Hosts the privacy
+policy referenced from the Play Store listing, plus a small landing page and
+a support / FAQ page.
 
 - **Landing page:** [index.html](index.html)
 - **Privacy policy:** [privacy-policy.html](privacy-policy.html)
 - **Support / FAQ:** [support.html](support.html)
 
-The privacy-policy URL listed on Google Play points here.
+Live at: https://jamesb0nd007.github.io/NudgeCal-legal/
 
 ## App
 
@@ -18,4 +20,4 @@ The privacy-policy URL listed on Google Play points here.
 ## Issues
 
 For questions about the privacy policy or to report a bug in the app,
-[open an issue](https://github.com/HigherGroundDev/nudgecal-site/issues).
+[open an issue](https://github.com/jamesb0nd007/NudgeCal-legal/issues).
